@@ -129,8 +129,8 @@ canvas.addEventListener("mousemove", setMousePosition, false);
  
 function setMousePosition(e) {
 
-  mouseX = e.clientX;
-  mouseY = e.clientY;
+  mouseX = e.offsetX;
+  mouseY = e.offsetY;
 }    
 
 function updateSpaceShip() {
